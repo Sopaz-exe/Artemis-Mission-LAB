@@ -1,4 +1,4 @@
-ARTEMIS MISSION LAB v3.0 · Estructura modular ES6
+ARTEMIS MISSION LAB v3.1 · Estructura modular ES6
 
 EJECUTAR
 En Windows, descomprime todo el ZIP y abre Iniciar-juego.bat. El servidor
@@ -28,11 +28,12 @@ Las fuentes Outfit y Nunito Sans están embebidas; sus licencias acompañan
 al código. Solo los enlaces de referencia NASA requieren conexión al abrirlos.
 
 IDIOMAS
-La interfaz principal puede cambiarse entre ES y EN. Los casos, explicaciones
-científicas y bitácoras se conservan en español; se indica junto al selector.
-El cambio de idioma vuelve a renderizar la vista actual y conserva el estado
-del minijuego, sus reservas, reloj y foco. Las lecturas de vuelo se traducen
-directamente sin MutationObserver ni recorridos globales del documento.
+ES / EN cambia la interfaz, casos, opciones, resultados, explicaciones NASA,
+minijuegos, cuaderno e informe completo. Los datos originales en español
+se conservan; las traducciones están incluidas localmente en i18n.js.
+No se usa ningún servicio de traducción, CDN ni conexión durante el juego.
+El cambio conserva el estado, las puntuaciones, las reservas y el foco.
+La traducción se aplica al renderizar, sin MutationObserver ni TreeWalker.
 
 CONSERVACIÓN
 Se preservan las fórmulas del balance v2.9, la certificación, las capacidades

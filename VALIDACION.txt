@@ -1,19 +1,18 @@
-VALIDACIÓN DE LA REFACTORIZACIÓN v3.0
+VALIDACIÓN DE INGLÉS COMPLETO · v3.1
 
-Catálogos educativos y configuraciones: comparación estructural exacta.
-Algoritmos de certificación, fórmulas y audio: comparación de AST; solo se
-normalizaron los accesos al estado compartido y las envolturas de traducción.
-240 misiones completas ganadas; 600 comprobaciones de generación.
-91 vistas/tamaños: equivalencia de propiedades CSS en los componentes
-revisados, aparte del nuevo aviso de idioma en la cabecera.
-Once minijuegos conservan progreso y foco al alternar ES/EN.
+808 textos del catálogo cubiertos; más de mil traducciones locales.
+Recorrido de 36 casos y sus 180 explicaciones de opciones: sin mezclas
+de español detectadas en los textos comprobados del modo inglés.
+Once minijuegos, introducciones, resultados, ayuda, biblioteca y cuaderno
+revisados en navegador. Controles, foco, progreso y reservas conservados
+al alternar ES / EN.
+Informe HTML: traducción de registro y leyendas, enlaces NASA intactos y
+capturas Base64 conservadas.
 600 actualizaciones de la lectura de alunizaje: cero recorridos del DOM
-y cero MutationObserver.
-Arranque con módulos ES nativos, regeneración de vistas, abandono de misión,
-persistencia y descarga de informe HTML con capturas Base64 verificados.
-Motor WebAudio: activación, música, escenas, silencios y planificador verificados.
-Sin peticiones externas en tiempo de ejecución ni errores de consola/red
-en el recorrido de navegador verificado.
-Iniciador local de Windows: HTTP y MIME de los nueve archivos verificados.
-
-Estas cifras describen pruebas de software del proyecto; no son datos NASA.
+y cero MutationObserver. Sin peticiones externas ni errores de consola/red
+en el recorrido verificado.
+Datos científicos, fórmulas de balance y certificación, lógica de minijuegos,
+motor de audio, persistencia/exportación y CSS: archivos idénticos a v3.0.
+Las modificaciones de renderizado se limitan a traducción de textos,
+notificaciones y escape del texto de introducción de actividades.
+No se implementaron nuevos minijuegos en esta actualización.
