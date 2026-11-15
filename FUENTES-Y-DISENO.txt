@@ -1,0 +1,55 @@
+ARTEMIS MISSION LAB v2.8 · DATOS Y ALCANCE DE LA REPRESENTACIÓN
+
+OH / AGUA EN LA REGIÓN DE 3 MICRÓMETROS
+NASA/JPL muestra espectros M3 y VIMS con absorciones de hidratación en
+aproximadamente 2,7–3,2 micrómetros. El juego destaca la ventana 2,8–3,0
+como una simplificación de esa región, sin asignarle una profundidad medida.
+https://www.jpl.nasa.gov/images/pia12227-cassini-and-chandrayaan-1-agree/
+NASA también describe específicamente 2,8–3,0 micrómetros en su historia
+del programa Discovery, al explicar el resultado M3 de 2009.
+https://www.nasa.gov/wp-content/uploads/2024/01/discovery-program-ebook.pdf
+
+PIROXENOS
+La documentación del mosaico NIR de Clementine explica las absorciones
+del piroxeno cerca de 1 y 2 micrómetros. Sus centros dependen de la composición;
+las marcas del juego indican esos valores aproximados, no valores universales.
+https://planetarydata.jpl.nasa.gov/img/data/clem1-l-n-5-dim-nir-v1.0/cl_5019/document/volinfo.htm
+Una composición M3 relaciona piroxeno con absorción cerca de 2 micrómetros.
+https://www.jpl.nasa.gov/images/pia12237-water-detected-at-high-latitudes/
+
+HIERRO, TITANIO E ILMENITA
+LROC utiliza comparaciones de color: NASA publica una composición con
+320, 415 y 689 nanómetros. El contenido de hierro/titanio afecta reflectancia
+y color de los basaltos. Estos tres canales NO son tres absorciones
+exclusivas de la ilmenita; no se inventan amplitudes o concentraciones.
+https://science.nasa.gov/photojournal/color-of-the-moon/
+La investigación de proporciones UV/visible como indicios de materiales
+con ilmenita requiere considerar otros componentes, como vidrios.
+https://science.nasa.gov/asset/hubble/schroters-valley-rille-in-false-color/
+
+SHACKLETON
+NASA describe el borde con sectores muy iluminados y el interior con
+regiones de sombra permanente. El juego explica esa diferencia y usa un
+tablero aleatorio inspirado en ella, sin atribuirle coordenadas o pendientes
+medidas ni presentarlo como una planificación real para un rover.
+https://science.nasa.gov/resource/shackleton-craters-illuminated-rim-shadowed-interior/
+
+FÍSICA Y ESPECIALIDADES
+La gravedad superficial lunar cercana a 1,62 m/s2 es real. No se añade viento:
+la velocidad lateral inicial representa inercia. Los empujes, depósitos,
+zona segura y umbrales se diseñaron para jugar y aprender, no para pilotar
+una nave real. Las bonificaciones profesionales son también reglas ficticias.
+https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html
+
+CÓDIGO CONSOLIDADO
+mission.js contiene un catálogo EVENTS de 36 casos y MODULES de 18 equipos.
+No existen CONTEXT_EVENTS, EXTRA_EVENTS ni MODULE_BALANCE sobreescribiendo
+el catálogo. Los objetos de estado se clonan y las definiciones se congelan.
+Las firmas espectrales tienen datos y referencias explícitos en
+SPECTRAL_PATTERNS. El informe de descarga se genera con reportHtml().
+
+PRUEBAS
+verify.cjs verifica las seis mejoras, 40 aterrizajes con control automático,
+condiciones de fallo, teclado, persistencia, audio simulado y reporte HTML.
+Los números de las pruebas describen ejecución automatizada, no resultados
+observados en niños ni mediciones de NASA.

@@ -1,0 +1,19 @@
+VALIDACIÓN DE LA REFACTORIZACIÓN v3.0
+
+Catálogos educativos y configuraciones: comparación estructural exacta.
+Algoritmos de certificación, fórmulas y audio: comparación de AST; solo se
+normalizaron los accesos al estado compartido y las envolturas de traducción.
+240 misiones completas ganadas; 600 comprobaciones de generación.
+91 vistas/tamaños: equivalencia de propiedades CSS en los componentes
+revisados, aparte del nuevo aviso de idioma en la cabecera.
+Once minijuegos conservan progreso y foco al alternar ES/EN.
+600 actualizaciones de la lectura de alunizaje: cero recorridos del DOM
+y cero MutationObserver.
+Arranque con módulos ES nativos, regeneración de vistas, abandono de misión,
+persistencia y descarga de informe HTML con capturas Base64 verificados.
+Motor WebAudio: activación, música, escenas, silencios y planificador verificados.
+Sin peticiones externas en tiempo de ejecución ni errores de consola/red
+en el recorrido de navegador verificado.
+Iniciador local de Windows: HTTP y MIME de los nueve archivos verificados.
+
+Estas cifras describen pruebas de software del proyecto; no son datos NASA.

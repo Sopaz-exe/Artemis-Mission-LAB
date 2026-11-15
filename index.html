@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080e19">
+<title>ARTEMIS MISSION LAB</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%228%22%20fill%3D%22%23101c2b%22%2F%3E%3Cpath%20d%3D%22m16%204%203%209%209%203-9%203-3%209-3-9-9-3%209-3Z%22%20fill%3D%22%2391dbff%22%2F%3E%3C%2Fsvg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<canvas id="stars" aria-hidden="true">
+</canvas>
+<header><a href="#" class="brand"><span class="brand-icon">✦</span><span><b class="brand-name">ARTEMIS MISSION LAB</b><small>UNA MISIÓN. CADA DECISIÓN CUENTA.</small></span></a>
+<div class="header-actions">
+<div class="language-control"><button id="language" aria-describedby="languageScope" class="small" aria-pressed="false" aria-label="Switch interface to English">ES / EN</button><small id="languageScope">Interfaz ES/EN · Casos y bitácoras en español</small>
+</div><span class="live">● SISTEMAS ACTIVOS</span><button id="audio" class="small" aria-pressed="true">Sonido: activado</button><button id="music" class="small" aria-pressed="true">Música: activada</button><button id="sources" class="small">Fuentes NASA ↗</button>
+</div>
+</header>
+<main id="app">
+</main>
+<nav id="continueDock" class="continue-dock" hidden aria-label="Continuar después de leer el resultado">
+</nav>
+<footer id="journeyProgress" class="journey-progress" hidden aria-label="Tu progreso en la misión">
+</footer>
+<div id="notice" role="status" aria-live="polite">
+</div>
+<dialog id="modal"><button id="closeModal" class="close" aria-label="Cerrar">×</button>
+<div id="modalBody">
+</div>
+</dialog>
+<div id="cinema" class="hidden" aria-live="polite">
+<canvas id="cinemaCanvas">
+</canvas>
+<div class="cinema-copy"><p id="cinemaTag" class="eyebrow"></p><h2 id="cinemaTitle"></h2><p id="cinemaText"></p><button id="skipCinema" class="small">Continuar →</button>
+</div>
+</div>
+<script type="module" src="js/main.js">
+</script>
+</body></html>
+
+
+
+
