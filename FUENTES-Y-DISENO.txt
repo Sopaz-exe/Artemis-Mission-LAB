@@ -53,3 +53,11 @@ verify.cjs verifica las seis mejoras, 40 aterrizajes con control automático,
 condiciones de fallo, teclado, persistencia, audio simulado y reporte HTML.
 Los números de las pruebas describen ejecución automatizada, no resultados
 observados en niños ni mediciones de NASA.
+
+DECLARACIÓN DE HERRAMIENTAS Y ASISTENCIA DE IA:
+El diseño educativo, la curaduría de escenarios, la verificación científica
+contra fuentes oficiales de la NASA y la validación funcional de este simulador
+fueron realizados por el autor. Se utilizaron herramientas de inteligencia
+artificial (Gemini ChatGPT / Codex) como gran asistencia técnica para la
+estructuración modular en JavaScript, optimización de gráficos en HTML5 Canvas
+y depuración de código.
