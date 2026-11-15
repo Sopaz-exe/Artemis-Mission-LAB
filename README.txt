@@ -41,7 +41,7 @@ la síntesis WebAudio, teclado, ARIA, foco, movimiento reducido y fotografías
 Base64 del informe. Se mantienen las partidas guardadas en el mismo origen
 HTTP; un origen distinto tiene su propio almacenamiento del navegador.
 
-DECLARACIÓN DE HERRAMIENTAS Y ASISTENCIA DE IA:
+DECLARACIÓN DE HERRAMIENTAS Y ASISTENCIA DE IA
 El diseño educativo, la curaduría de escenarios, la verificación científica
 contra fuentes oficiales de la NASA y la validación funcional de este simulador
 fueron realizados por el autor. Se utilizaron herramientas de inteligencia
