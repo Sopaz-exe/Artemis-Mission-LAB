@@ -6,6 +6,8 @@ Artemis Mission LAB es un juego educativo interactivo que acerca los viajes
 espaciales a los estudiantes. Mediante decisiones, desafíos y minijuegos, permite
 planificar una misión y administrar recursos limitados, convirtiendo conceptos
 complejos de ciencia e ingeniería en una experiencia accesible para aprender jugando.
+Accede directamente al juego desde tu navegador, sin descargar ni instalar nada:
+https://artemis-mission-lab.vercel.app/
 
 EJECUTAR
 En Windows, descomprime todo el ZIP y abre Iniciar-juego.bat. El servidor
