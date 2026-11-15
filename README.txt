@@ -1,7 +1,6 @@
 ARTEMIS MISSION LAB v3.1 · Estructura modular ES6
 
 SPACE APPS
-
 Artemis Mission LAB es un juego educativo interactivo que acerca los viajes
 espaciales a los estudiantes. Mediante decisiones, desafíos y minijuegos, permite
 planificar una misión y administrar recursos limitados, convirtiendo conceptos
