@@ -7,11 +7,6 @@ http://127.0.0.1:8765/index.html. Mantén su ventana abierta mientras juegas.
 No instala paquetes, no requiere privilegios de administrador y solo
 escucha en tu propio equipo. El puerto fijo conserva el origen de localStorage.
 
-También puedes servir esta carpeta con cualquier servidor HTTP estático.
-Por ejemplo, si ya tienes Python: python -m http.server 8765 --bind 127.0.0.1
-Los módulos ES6 se cargan por HTTP. Abrir index.html mediante file:// no
-es el método de ejecución, por las restricciones de módulos del navegador.
-
 ARCHIVOS DEL JUEGO
 index.html: estructura semántica, accesibilidad y entrada type="module".
 css/styles.css: estilos consolidados y tipografías incluidas como Base64.
@@ -36,7 +31,7 @@ El cambio conserva el estado, las puntuaciones, las reservas y el foco.
 La traducción se aplica al renderizar, sin MutationObserver ni TreeWalker.
 
 CONSERVACIÓN
-Se preservan las fórmulas del balance v2.9, la certificación, las capacidades
+Se preservan las fórmulas del balance v3.0, la certificación, las capacidades
 y tarifas ficticias, las fórmulas de minijuegos, los contenidos científicos,
 la síntesis WebAudio, teclado, ARIA, foco, movimiento reducido y fotografías
 Base64 del informe. Se mantienen las partidas guardadas en el mismo origen
